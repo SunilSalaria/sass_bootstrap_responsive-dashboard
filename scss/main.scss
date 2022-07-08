@@ -1,0 +1,23 @@
+//@import font family poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ $font-family-base: 'Poppins', sans-serif;
+//== Colors
+// $theme-colors: ( "primary": #284C61, "info": #417488, "success" :#9aca3c);
+//== Links
+// $link-hover-color:#9aca3c !important;
+//== Input on Foucs / Active
+$input-focus-box-shadow:none !important;
+//== Button on Foucs / Active
+$btn-focus-box-shadow:none !important;
+$btn-active-box-shadow:none !important;
+
+//========= @import partial scss files + bootstrap scss file ===============//
+
+@import "global-variable";   //@import common variable
+@import "common-style";     //@import _common style partial
+@import "header";          //@import _header partial
+@import "aside";          //@import _aside partial
+
+@import "../node_modules/bootstrap/scss/bootstrap"; //@import bootstrap scss file
+

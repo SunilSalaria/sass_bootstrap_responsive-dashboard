@@ -1,0 +1,33 @@
+//=========== Common style  ==============//
+
+//main common style
+main.active{
+    margin-left: 0px !important;
+}
+main{
+    margin-left: 250px;
+    transition: margin 0.5s;
+    min-height: 100vh;
+}
+
+
+@media(min-width:300px) and (max-width:1023.98px){    
+    main{
+        margin-left: 0px !important;
+    }  
+    #aside-nav{
+        top: 63px !important;
+    }
+    main{
+        overflow: hidden;
+    }
+
+    //responsive left nav on mobile
+    #header-navbar{
+        position:fixed !important;        
+    }
+    
+    #main{
+        margin-top: 60px !important;
+    }
+}

@@ -1,0 +1,16 @@
+//=========== header navbar ==============//
+
+#header-navbar{
+    //aside toggle
+    #aside-toggle-btn{
+        color: #293042;
+        cursor: pointer;
+    } 
+    //user dropdown
+    .user-dropdown{
+        .dropdown-menu{
+            right:0 !important;
+            left: auto !important;
+        }
+    }     
+}

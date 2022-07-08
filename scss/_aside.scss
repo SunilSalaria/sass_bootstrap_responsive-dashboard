@@ -1,0 +1,74 @@
+//=========== aside nav ==============//
+
+//aside nav active class toggle on click
+#aside-nav.active{
+    width: 0px !important;    
+}
+
+//aside nav
+#aside-nav{
+    overflow-y: auto;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #293042;
+    width: 250px;    
+    transition:width 0.5s;    
+    height: 100vh;  
+    
+    .nav-link{
+        font-size: .825rem;
+        padding: .725rem 1.625rem;
+        color: white;
+        white-space:nowrap;
+        letter-spacing: 0.3px;
+        svg{    
+            height: 20px;
+            width: 20px;
+        }
+    }  
+    
+    .aside-brand{        
+        padding: 1.15rem 1.725rem;
+        display: block;        
+        color: #fff;
+        fill: #fff;
+        cursor: pointer;
+        white-space:nowrap;
+        svg{    
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    .active{
+        background-color:#f8f9fa; // bg light
+        color: #293042;  // aside bg
+        font-weight: 500;
+        box-shadow: 0 0.125rem 0.25rem rgba(0,0, 0,0.8);
+    }
+
+    .dropdown-caret-svg{
+        svg{
+            position:absolute;
+            right:20px;
+        }
+    }
+    
+    .dropdown-caret-svg.rotate-svg svg{
+        transform:rotate(90deg);
+    }
+
+    .aside-dropdown-menu a{
+        padding-left: 58px;
+    }
+
+    .aside-badge{        
+        background: #DB2777;
+        padding: 0px 7px;
+        border-radius: 10px;
+        color: white !important;
+    }
+    
+}
+
